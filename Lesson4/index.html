@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+		</style>
+		<!-- External -->
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Lesson 4</title>
+
+		<!-- Internal -->
+		<style>
+			* {
+				font-family: 'Roboto', sans-serif;
+			}
+
+			h1 {
+				color: blue !important;
+			}
+			#id_h1 {
+				color: green;
+			}
+			.class_h1 {
+				color: purple;
+			}
+
+			.paragraph {
+				font-size: 36px;
+				font-weight: bold;
+				/* background-color: rgba(0, 0, 0, 0.2); */
+				background-image: url('./background-image.jpg');
+			}
+
+			h2 {
+				text-align: center;
+
+				/* border-style: solid; */
+				/* border-width: 2px; */
+				/* border-color: black; */
+
+				border: 2px black solid;
+				border-radius: 16px;
+                opacity: 0.2;
+			}
+
+			span {
+				text-align: center;
+			}
+
+			img {
+				border-radius: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="id_h1" class="class_h1" style="color: red">Nội dung thẻ h1</h1>
+
+		<p class="paragraph">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, molestiae
+			doloremque reprehenderit at quas voluptatem. Maxime quos qui totam
+			laudantium sint. Nisi, molestias veniam dolorum impedit culpa provident
+			nostrum aliquid.
+		</p>
+
+		<h2>Thẻ h2</h2>
+		<span>Thẻ span</span>
+
+		<img
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq70AvDs-OIZrlcU0kAqvObihT8VhvedCurSyXCDCakQ&s"
+		/>
+	</body>
+</html>
