@@ -11,6 +11,59 @@
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer"
 		/>
+		<style>
+			.card-product {
+				border-radius: 8px;
+				border: 1px solid black;
+				width: fit-content;
+				overflow: hidden;
+			}
+
+			img.card-product__image {
+				width: 100%;
+			}
+
+			.card-product__content {
+				padding: 16px;
+			}
+
+			span.badge-new {
+				font-weight: bold;
+				background: darkseagreen;
+				padding: 4px;
+				border-radius: 30px;
+			}
+
+			span.detail {
+				margin-left: 10px;
+				font-weight: bold;
+				color: grey;
+			}
+
+			.card-product__title {
+				font-weight: bold;
+				margin-top: 8px;
+				margin-bottom: 8px;
+			}
+
+			.card-product__price {
+				color: grey;
+				margin-top: 8px;
+				margin-bottom: 8px;
+			}
+
+			.color-blue {
+				color: #50958a;
+			}
+
+			.color-grey {
+				color: grey;
+			}
+
+			.count-reviews {
+				color: grey;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="card-product">
@@ -19,23 +72,25 @@
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO7NX9TLf-Crj9blAb-_5U-yhn1cb5zwLdzw6kOXN_SQ&s"
 			/>
 
-			<div class="card-product__description">
-				<span class="badge-new"> NEW </span>
-				<span> 3 BEDS ● 2 BATHS </span>
-			</div>
-			<div class="card-product__title">
-				Modern home in city center in the heart o...
-			</div>
-			<div class="card-product__price">$1,900.00/ wk</div>
-			<div class="card-product__reviews">
-				<span class="starts">
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-regular fa-star"></i>
-				</span>
-				<span class="count-reviews"> 34 reviews </span>
+			<div class="card-product__content">
+				<div class="card-product__description">
+					<span class="badge-new"> NEW </span>
+					<span class="detail"> 3 BEDS ● 2 BATHS </span>
+				</div>
+				<div class="card-product__title">
+					Modern home in city center in the heart o...
+				</div>
+				<div class="card-product__price">$1,900.00/ wk</div>
+				<div class="card-product__reviews">
+					<span class="starts">
+						<i class="fa-solid fa-star color-blue"></i>
+						<i class="fa-solid fa-star color-blue"></i>
+						<i class="fa-solid fa-star color-blue"></i>
+						<i class="fa-solid fa-star color-blue"></i>
+						<i class="fa-regular fa-star color-grey"></i>
+					</span>
+					<span class="count-reviews"> 34 reviews </span>
+				</div>
 			</div>
 		</div>
 	</body>
