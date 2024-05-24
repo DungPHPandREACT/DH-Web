@@ -21,7 +21,9 @@ h1.header-logo__name {
 
 .header-search {
     height: 40px;
-    width: 471px;
+    width: 50%;
+    max-width: 471px;
+    min-width: 166px;
 }
 
 .header-search input {
@@ -29,6 +31,7 @@ h1.header-logo__name {
     height: 100%;
     border-radius: 8px;
     border: 1px solid black;
+    
 }
 
 .header-options {
@@ -146,6 +149,20 @@ p.card-user-speaks {
     display: none;
 }
 
+.header-search {
+    position: relative;
+}
+
+span.icon-search {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.header-search input {
+    padding-left: 40px;
+}
+
 @media (max-width: 1024px){
     .user-3{
         order: 2;
@@ -169,6 +186,10 @@ p.card-user-speaks {
 }
 
 @media (min-width: 720px) and (max-width: 1024px){
+    .header-search{
+        text-align: center;
+        width: 30%;
+    }
 
     p.card-user-speaks{
         display: none;
