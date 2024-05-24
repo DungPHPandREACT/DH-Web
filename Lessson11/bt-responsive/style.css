@@ -64,6 +64,10 @@ h1.header-logo__name {
     margin-right: 12px;
 }
 
+.icons-contact-right svg {
+    margin-right: 12px;
+}
+
 .card-user-right {
     height: calc(100% - 32px - 16px);
     padding: 32px 16px 16px;
@@ -132,4 +136,129 @@ p.card-user-speaks {
 
 .card-user.user-6{
     background-color: #A5FF96;
+}
+
+.card-user-social-left{
+    display: none;
+}
+
+.icons-contact-right{
+    display: none;
+}
+
+@media (max-width: 1024px){
+    .user-3{
+        order: 2;
+    }
+
+    .user-4{
+        order: 5;
+    }
+
+    .user-5{
+        order: 3;
+    }
+
+    .user-2{
+        order: 4;
+    }
+
+    .user-6{
+        order: 6;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1024px){
+
+    p.card-user-speaks{
+        display: none;
+    }
+
+    .card-user-location{
+        display: none;
+    }
+
+    .card-user-social-left{
+        display: flex;
+    }
+    
+    .icons-contact-right{
+        display: flex;
+    }
+
+    .card-user-social{
+        display: none;
+    }
+    
+    .icons-contact{
+        display: none;
+    }
+
+    .card-user {
+        width: 328px;
+    }
+
+    .card-user-left{
+        padding: 16px 8px;
+    }
+
+    .card-user-left img{
+        width: 168px;
+    }
+
+    .card-user-right{
+        padding: 16px;
+    }
+}
+
+@media (max-width: 719px){
+    .card-user{
+        width: 100%;
+    }
+
+    .header-search{
+        display: none;
+    }
+
+    .header-options{
+        display: none;
+    }
+}
+
+@media (max-width: 509px){
+    p.card-user-speaks{
+        display: none;
+    }
+
+    .card-user-location{
+        display: none;
+    }
+
+    .card-user-social-left{
+        display: flex;
+    }
+    
+    .icons-contact-right{
+        display: flex;
+    }
+
+    .card-user-social{
+        display: none;
+    }
+    
+    .icons-contact{
+        display: none;
+    }
+
+    .card-user-left{
+        padding: 16px 8px;
+    }
+
+    .card-user-left img{
+        width: 168px;
+    }
+
+    .card-user-right{
+        padding: 16px;
+    }
 }
