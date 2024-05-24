@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* Khi kích thước màn hình >= 768px, thẻ <body> có background: red; */
+      @media (min-width: 768px) {
+        body {
+          background-color: red;
+        }
+      }
+      /* Khi kích thước màn hình < 512px, thẻ <body> có background: blue; */
+      @media (max-width: 512px) {
+        /* CSS */
+        body {
+          background-color: blue;
+        }
+      }
+ 
+      .box{
+        background-color: green;
+        width: 450px;
+        height: 100px;
+        max-width: 500px;
+        min-width: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Demo responsive</h1>
+
+    <div class="box"></div>
+  </body>
+</html>
