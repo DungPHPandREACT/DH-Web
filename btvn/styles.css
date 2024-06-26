@@ -1,0 +1,64 @@
+
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+}
+.collapse{
+    justify-content: flex-end;
+}
+.col-3{
+    padding-right: 8px;
+}
+.list-group-item{
+    color: blue;
+}
+.imgc{
+    width: fit-content;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+    margin-top: 40px;
+}
+.imgc img {
+    vertical-align: middle;
+    width: 100%;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgc{
+    width: 100%;
+}
+.card{
+    margin-top: 40px;
+    z-index: 1;
+}
+.col-9{
+    padding-left: 8px;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.footer span{
+    color: blue;
+}
+.bg-dark{
+    background-color: black;
+}
+.navbar-expand-lg{
+    background-color: black;
+}
+.bg-dark{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
